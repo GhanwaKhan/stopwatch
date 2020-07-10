@@ -1,0 +1,141 @@
+body {
+    background-color:  black;
+    text-align: center;
+}
+
+.main {
+background-color: #1d65a6;
+height: 500px;
+width: 70%;
+margin: 50px auto;
+padding-top: 30px;
+border: 2px solid blue;
+}
+
+h1 {
+    color: #192e5b;
+    background-color: #12cc40;
+    width: 700px;
+    height: 100px;
+    margin: 0px auto;
+    font-size: 80px;
+    border:  2px solid #00743f;
+}
+
+h2 {
+    color: black;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+background-color: white;
+font-size: 100px;
+padding-top: 30px;
+}
+
+
+button {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .main {
+        height: 470px;
+        width: 400px;
+    }
+
+    h1 {
+        width: 350px;
+        height: 80px;
+        font-size: 50px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        width: 120px;
+        height: 100px;
+        font-size: 90px;
+        padding-top: 15px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        height: 430px;
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    h1 {
+        width: 300px;
+        height: 70px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        width: 100px;
+        height: 80px;
+        font-size: 70px;
+        padding-top: 8px;
+    }
+
+    button {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        height: 340px;
+        width: 270px;
+        margin-top: 130px;
+    }
+
+    h1 {
+        width: 230px;
+        height: 60px;
+        font-size: 33px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main {
+        height: 300px;
+        width: 230px;
+        margin-top: 150px;
+    }
+
+    h1 {
+        width: 190px;
+        height: 50px;
+        font-size: 25px;
+        padding-top: 18px;
+    }
+
+    h2 {
+        width: 60px;
+        height: 70px;
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
